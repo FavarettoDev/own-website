@@ -2,9 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/favare46/public_html/
-    - mkdir $DEPLOYPATH/css
-    - mkdir $DEPLOYPATH/fonts
-    - mkdir $DEPLOYPATH/js
+    - /bin/mkdir $DEPLOYPATH/css
+    - /bin/mkdir $DEPLOYPATH/fonts
+    - /bin/mkdir $DEPLOYPATH/js
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp css/style.css $DEPLOYPATH/css
     - /bin/cp css/bootsrap.css $DEPLOYPATH/css
