@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/favare46/public_html/
+    - export DEPLOYPATH=/home2/favaretto46/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp estilo.css $DEPLOYPATH
     - /bin/cp file-code-solid.svg $DEPLOYPATH
