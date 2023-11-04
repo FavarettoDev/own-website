@@ -3,15 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home2/favare46/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp css/style.css $DEPLOYPATH/css
-    - /bin/cp css/bootsrap.css $DEPLOYPATH/css
-    - /bin/cp css/font-awsome.min.css $DEPLOYPATH/css
-    - /bin/cp css/responsive.css $DEPLOYPATH/css
-    - /bin/cp css/style.css.map $DEPLOYPATH/css
-    - /bin/cp css/style.scss $DEPLOYPATH/css
-    - /bin/cp fonts/fontawesome-webfont.ttf $DEPLOYPATH/fonts
-    - /bin/cp fonts/fontawesome-webfont.woff $DEPLOYPATH/fonts
-    - /bin/cp fonts/fontawesome-webfont.woff2 $DEPLOYPATH/fonts
-    - /bin/cp js/bootstrap.js $DEPLOYPATH/js
-    - /bin/cp js/custom.js $DEPLOYPATH/js
-    - /bin/cp js/jquery-3.4.1.min.js $DEPLOYPATH/js
+    - /bin/cp -r css/ $DEPLOYPATH
+    - /bin/cp -r fonts/ $DEPLOYPATH
+    - /bin/cp -r js/ $DEPLOYPATH
